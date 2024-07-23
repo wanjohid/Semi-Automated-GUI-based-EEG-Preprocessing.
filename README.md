@@ -1,2 +1,2 @@
 # Semi-Automated-GUI-based-EEG-Preprocessing.
-Semi-automated method to identify and delete temporal and spatial artifacts from EEG data. 
+Semi-automated method to identify and delete temporal and spatial artifacts from EEG data. This pipeline utilizes parameters from the FASTER (Fully Automated Statistical Thresholding for EEG artifact Rejection) pipeline, with the addition of a user-friendly GUI and additional checkpoints for the reviewer to supervise artifact classification. Independent component analysis (ICA) is used to separate EEG data into neural activity and artifact. The semi-automated approach is particularly helpful with large datasets, and is designed to streamline manual review and target specific causes of artifact.
